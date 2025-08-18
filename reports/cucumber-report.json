@@ -1,0 +1,244 @@
+[
+  {
+    "description": "  As a partner user\n  I want to login to the Albertsons Partner Portal\n  So that I can access the partner resources and tools",
+    "elements": [
+      {
+        "description": "",
+        "id": "albertsons-partner-portal-login-with-email-verification;successful-login-to-albertsons-partner-portal-with-email-verification",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Successful login to Albertsons Partner Portal with email verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2052016854
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I have a valid test email account \"gmvendorexternaleditordiv27@yopmail.com\"",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410704
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I have access to the YOPmail inbox \"gmvendorexternaleditordiv27\"",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I navigate to the Albertsons Partner Portal login page",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1649923325
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I enter my email address for authentication",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1330225330
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click the Next button to proceed",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548108338
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be redirected to Microsoft authentication",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2606064
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I should receive a verification email",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002806185
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I open YOPmail to check my inbox",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6069537006
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I find the verification email from Microsoft",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427121559
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I extract the OTP code from the email",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3012785495
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I return to the login page",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22485244
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I enter the OTP code",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15016013060
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click the verify button",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1269651409
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should be successfully logged into the Albertsons Partner Portal",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3517214695
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I should see the portal dashboard",
+            "match": {
+              "location": "feature/step_definitions/albertsons-login-steps.js:144"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5025093761
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361582262
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 10
+          },
+          {
+            "name": "@smoke1",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "albertsons-partner-portal-login-with-email-verification",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Albertsons Partner Portal Login with Email Verification",
+    "tags": [],
+    "uri": "feature/albertsons-login.feature"
+  }
+]

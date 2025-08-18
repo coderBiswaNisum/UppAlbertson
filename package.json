@@ -1,0 +1,22 @@
+{
+  "name": "upppoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:cucumber": "npx cucumber-js feature/albertsons-login.feature --config feature/cucumber.js",
+    "test:cucumber:all": "npx cucumber-js feature/*.feature --config feature/cucumber.js",
+    "test:cucumber:login": "npx cucumber-js feature/albertsons-login.feature --config feature/cucumber.js --tags @smoke1",
+    "test:cucumber:negative": "npx cucumber-js feature/albertsons-login.feature --config feature/cucumber.js --tags @negative"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.1.0"
+  }
+}
