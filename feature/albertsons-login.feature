@@ -21,8 +21,4 @@ Feature: Albertsons Partner Portal Login with Email Verification
     And I enter the OTP code
     And I click the verify button
     Then I should be successfully logged into the Albertsons Partner Portal
-      And I should see the portal dashboard
-
-  
-
- 
+    And I should see the portal dashboard
